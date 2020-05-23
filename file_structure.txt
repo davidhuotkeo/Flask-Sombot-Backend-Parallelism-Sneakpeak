@@ -1,0 +1,20 @@
+/path/to/directory/../.
+├── app
+│   ├── __init__.py
+│   ├── controllers
+│   ├── csv
+│   ├── models
+│   ├── security
+│   ├── utils
+│   └── views
+├── config
+│   └── config.py
+├── env
+│   ├── bin
+│   ├── include
+│   ├── lib
+│   ├── pyvenv.cfg
+│   └── share
+└── run.py
+
+13 directories, 4 files
