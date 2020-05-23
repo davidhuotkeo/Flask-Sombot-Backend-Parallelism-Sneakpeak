@@ -25,4 +25,7 @@ def send_ticket(eventid):
     email_arguments = {"audiences": audience_list_object, "subject": subject, "message": msg}
     email_parallel = Thread(target=send_email, kwargs=email_arguments)
 
+    # Start the parallelism
+    email_parallel.start()
+    
     return jsonify({"sent": True})
